@@ -26,3 +26,5 @@ total = 0.0
 for credit in credits:
     total += credit.amount
 print(total)
+
+# next up: expand functionality by making another method

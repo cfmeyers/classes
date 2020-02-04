@@ -23,3 +23,4 @@ print(total)
 
 
 # still requires a fair bit of knowledge about credits (see that conditional)
+# next up: pull in the conditional logic to the class

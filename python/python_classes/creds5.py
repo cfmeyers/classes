@@ -30,3 +30,5 @@ class Cred5:
 credits = [Cred5.from_row(r) for r in rows]
 credit = credits[0]
 debits_only = [c for c in credits if c.is_debit]
+
+# Next up: NamedTuples

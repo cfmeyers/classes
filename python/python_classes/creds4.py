@@ -24,3 +24,5 @@ class Cred4:
 
 
 credits = [Cred4.from_row(r) for r in rows]
+
+# Next up: use @property decorator to add pseudo-properties

@@ -23,3 +23,4 @@ print(total)
 
 
 row = rows[0]
+# Next up: make a class to encapsulate row
