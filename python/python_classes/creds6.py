@@ -13,9 +13,9 @@ class Cred6(NamedTuple):
     @property
     def amount(self):
         if self.txn_type == "DEBIT":
-            return absolute_amount * -1
+            return self.absolute_amount * -1
         else:
-            return absolute_amount
+            return self.absolute_amount
 
     @classmethod
     def from_row(cls, row):
@@ -27,4 +27,19 @@ class Cred6(NamedTuple):
 
 
 credits = [Cred6.from_row(r) for r in rows]
-credit = credits[0]
+credit2 = credits[0]
+
+
+class Order(NamedTuple):
+    uid: int
+    order_id: int
+    order_type: str
+    is_late: bool
+
+
+class Order:
+    def __init__(self, uid, order_id, order_type, is_late):
+        self.uid = uid
+        self.order_id = order_id
+        self.order_type = order_type
+        self.is_late = is_late

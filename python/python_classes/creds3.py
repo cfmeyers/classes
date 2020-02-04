@@ -27,3 +27,4 @@ class Cred3:
 
 
 credits = [Cred3(r[1], r[2]) for r in rows]
+credit = credits[0]

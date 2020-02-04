@@ -1,5 +1,3 @@
-import json
-
 from helpers import get_credit_txn_rows_from_db
 
 rows = get_credit_txn_rows_from_db()

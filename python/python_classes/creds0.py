@@ -13,7 +13,7 @@ rows = get_credit_txn_rows_from_db()
 ##
 ##
 
-total = 0
+total = 0.0
 for row in rows:
     if row[2] == "CREDIT":
         total += row[1]  # amount
