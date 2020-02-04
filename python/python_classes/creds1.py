@@ -20,4 +20,6 @@ for credit in credits:
     else:
         total -= credit.amount
 print(total)
+
+
 # still requires a fair bit of knowledge about credits (see that conditional)

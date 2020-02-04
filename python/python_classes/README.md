@@ -25,3 +25,7 @@ To follow along in github:
 - [`creds5.py`](https://github.com/cfmeyers/classes/blob/master/python/python_classes/creds5.py)
 - [`creds6.py`](https://github.com/cfmeyers/classes/blob/master/python/python_classes/creds6.py)
 - [`creds7.py`](https://github.com/cfmeyers/classes/blob/master/python/python_classes/creds7.py)
+
+
+Further Reading:
+[Fluent Python](https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008)
